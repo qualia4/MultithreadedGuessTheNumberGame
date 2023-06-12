@@ -71,7 +71,7 @@ void checkIfLost(){
 }
 
 int main() {
-    vector<int>* random_numbers;
+    vector<int>* random_numbers = new vector<int>;
     cout << "Numbers from 1 to 10 will be added to the queue every 3 seconds. Your goal is catch up with numbers. Write anything to start";
     string start;
     cin >> start;
